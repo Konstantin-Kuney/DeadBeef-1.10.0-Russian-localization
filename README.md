@@ -2,6 +2,7 @@
 ------------------------------------------
 DeadBeef 1.10.0 Russian localization
 
+<img width="1403" height="680" alt="Снимок экрана от 2025-08-18 11-16-59" src="https://github.com/user-attachments/assets/838811e8-96da-432e-a12c-4a7f3116fb67" />
 
 
 ## О локализации:
