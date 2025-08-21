@@ -2144,7 +2144,7 @@ msgstr "Вся музыка"
 
 #: ../plugins/gtkui/medialib/medialibwidget.c:129
 msgid "Media library is disabled"
-msgstr "Медиа библиотека отключена"
+msgstr "Медиатека отключена"
 
 #: ../plugins/gtkui/medialib/medialibwidget.c:133
 msgid "Loading..."
@@ -2164,7 +2164,7 @@ msgstr "Сохранение..."
 
 #: ../plugins/gtkui/medialib/medialibwidget.c:815
 msgid "Media Library plugin is unavailable."
-msgstr "Плагин «Медиа библиотека» недоступен."
+msgstr "Плагин «Медиатека» недоступен."
 
 #: ../plugins/gtkui/playlist/mainplaylist.c:236
 #: ../plugins/gtkui/playlist/searchplaylist.c:191
