@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: DeaDBeeF Player\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-16 10:48+0300\n"
-"PO-Revision-Date: 2025-08-17 19:01+0300\n"
+"PO-Revision-Date: 2025-08-24 14:04+0300\n"
 "Last-Translator: Konstantin Kuney <kmkuney@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/deadbeef-player/deadbeef-player/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr "                      или в дБ [-50, 0] (если с суффик�
 msgid ""
 "                      Examples: --volume 80, --volume +10, --volume -5 or "
 "--volume -20dB\n"
-msgstr "                      Примеры: --volume 80, --volume +10, --volume -5 or --volume -20dB\n"
+msgstr "                      Примеры: --volume 80, --volume +10, --volume -5 или --volume -20dB\n"
 
 #: ../src/main.c:184
 #, c-format
@@ -1612,7 +1612,7 @@ msgid ""
 "2.3 (Recommended)\n"
 "2.4"
 msgstr ""
-"2.3 (Рекомендуемая)\n"
+"2.3 (Рекомендуется)\n"
 "2.4"
 
 #: ../plugins/gtkui/deadbeef.glade.h:223 ../plugins/gtkui/interface.c:4683
@@ -1634,7 +1634,7 @@ msgid ""
 "\"audio/x-mpeg\", and need to be decoded by DeaDBeeF's own \"stdmpg\" "
 "plugin, or \"ffmpeg\" plugin."
 msgstr ""
-"Эта таблица определяет соответствие между типами сетевых потоков (content-type) и декодерами DeaDBeeF. Например, mp3 файлы могут иметь content-type \"audio/x-mpeg\", и должны раскодироваться одним из плагинов \"stdmpg\" либо \"ffmpeg\"."
+"Эта таблица определяет соответствие между типами сетевых потоков (content-type) и декодерами DeaDBeeF. Например, mp3 файлы могут иметь content-type \"audio/x-mpeg\", и должны декодироваться одним из плагинов \"stdmpg\" либо \"ffmpeg\"."
 
 #: ../plugins/gtkui/deadbeef.glade.h:227 ../plugins/gtkui/interface.c:5088
 msgid "Content-Type:"
@@ -2120,7 +2120,7 @@ msgstr "Применить усиление и предотвратить отс
 
 #: ../plugins/gtkui/interface.c:2071
 msgid "Only prevent clipping"
-msgstr "Только предотвратить клиппин"
+msgstr "Только предотвратить клиппинг"
 
 #: ../plugins/gtkui/interface.c:4445
 msgid "Ascending"
@@ -2132,7 +2132,7 @@ msgstr "По убыванию"
 
 #: ../plugins/gtkui/interface.c:4676
 msgid "2.3 (Recommended)"
-msgstr "2.3 (Рекомендуемая)"
+msgstr "2.3 (Рекомендуется)"
 
 #: ../plugins/gtkui/interface.c:4677
 msgid "2.4"
@@ -2437,7 +2437,7 @@ msgstr "Не удаётся добавить поле"
 
 #: ../plugins/gtkui/trkproperties.c:1267
 msgid "Field with such name already exists, please try different name."
-msgstr "Поле с таким же именем уже сущестует, пожалуйста, выберите другое имя."
+msgstr "Поле с таким же именем уже существует, пожалуйста, выберите другое имя."
 
 #: ../plugins/gtkui/widgets.c:459
 #, c-format
@@ -2680,7 +2680,7 @@ msgstr "Не могу этого сделать."
 
 #: ../plugins/gtkui/scriptable/gtkScriptableListEditViewController.c:633
 msgid "Preset with this name already exists."
-msgstr "Пресет с таким именем уже существует."
+msgstr "Предустановка с таким именем уже существует."
 
 #: ../plugins/gtkui/scriptable/gtkScriptableListEditViewController.c:634
 #: ../plugins/gtkui/scriptable/gtkScriptableListEditViewController.c:641
