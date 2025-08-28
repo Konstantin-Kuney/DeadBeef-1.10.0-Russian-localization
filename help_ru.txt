@@ -3,10 +3,10 @@
 
 * ССЫЛКИ
 
-    main website: https://deadbeef.sourceforge.io
-    wiki: https://github.com/DeaDBeeF-Player/deadbeef/wiki
-    development website: https://github.com/DeaDBeeF-Player/deadbeef
-    info for contributors: https://github.com/DeaDBeeF-Player/deadbeef/blob/master/CONTRIBUTING.md
+    основной сайт: https://deadbeef.sourceforge.io
+    вики: https://github.com/DeaDBeeF-Player/deadbeef/wiki
+    сайт разработки: https://github.com/DeaDBeeF-Player/deadbeef
+    информация для участников: https://github.com/DeaDBeeF-Player/deadbeef/blob/master/CONTRIBUTING.md
 
 * ФАЙЛЫ РАЗМЕТКИ (CUE SHEETS)
 
