@@ -37,83 +37,105 @@ DeadBeef 1.10.0 Russian localization
 * translators_ru.txt - файл со списком переводчиков обновленный
 * README.md - данный файл описания
 
-## Установка/Удаление русификатора (32-х и 64-битные версии):
--------------------------------------------------------------
+## Установка/Удаление русификатора:
+-----------------------------------
+
+## Linux
+--------
 
 ### 1.С помощью скриптов:
 
-Делаем скрипты исполняемыми:
+**Внимание! Скрипт написан для DeaDBeeF-static установленного из deb-пакета с [официального сайта](https://deadbeef.sourceforge.io/download.html). Если вы собрали DeaDBeeF-devel из [исходников](https://github.com/DeaDBeeF-Player/deadbeef), то пути в скрипте необходимо изменить.**
+
+1.1.Перейдите во временную папку:
+```
+$ cd /tmp/
+```
+
+1.2.Клонируйте репозиторий:
+```
+$ git clone https://github.com/Konstantin-Kuney/DeadBeef-1.10.0-Russian-localization.git
+```
+
+1.3.Перейдите в папку с локализацией:
+```
+$ cd DeadBeef-1.10.0-Russian-localization/
+```
+
+1.4.Сделайте скрипты исполняемыми:
 ```
 $ sudo chmod +x *.sh
 ```
 
-Установка:
+1.5.**Установка:**
 ```
 $ sudo sh ./install.sh
 ```
 
-Удаление:
+1.6.**Удаление:**
 ```
 $ sudo sh ./uninstall.sh
 ```
 
 ### 2.Вручную:
 
-Установка:
+**2.1.Установка:**
 
-Создаем папку для русской локализации:
+2.1.1.Смотрите п.1.1-1.4
+
+2.1.2.Создайте папку для русской локализации:
 ```
 $ sudo mkdir -p /opt/deadbeef/share/locale/ru/LC_MESSAGES/
 ```
 
-Копируем в нее скомпилированный файл русской локализации:
+2.1.3.Скопируйте в нее скомпилированный файл русской локализации:
 ```
 $ sudo cp -f ru.mo /opt/deadbeef/share/locale/ru/LC_MESSAGES/deadbeef.mo
 ```
 
-Заменяем содержимое файла со списком переводчиков:
+2.1.4.Замените содержимое файла со списком переводчиков:
 ```
 $ sudo cat translators.txt > /opt/deadbeef/share/doc/deadbeef/translators.txt
 ```
 
-Заменяем содержимое файла "О программе":
+2.1.5.Замените содержимое файла "О программе":
 ```
 $ sudo cat about_ru.txt > /opt/deadbeef/share/doc/deadbeef/about.txt
 ```
 
-Заменяем содержимое файла истории изменений DeaDBeeF:
+2.1.6.Замените содержимое файла истории изменений DeaDBeeF:
 ```
 $ sudo cat ChangeLog_DeaDBeeF > /opt/deadbeef/share/doc/deadbeef/ChangeLog
 ```
 
-Копируем файл помощи:
+2.1.7.Скопируйте файл помощи:
 ```
 $ sudo cp -f help_ru.txt /opt/deadbeef/share/doc/deadbeef/help.ru.txt 
 ```
 
-Удаление:
+**2.2.Удаление:**
 
-Удаляем папку с русской локализацией:
+2.2.1.Удалите папку с русской локализацией:
 ```
 $ sudo rm -rf /opt/deadbeef/share/locale/ru/
 ```
 
-Заменяем содержимое файла со списком переводчиков на оригинальное:
+2.2.2.Замените содержимое файла со списком переводчиков на оригинальное:
 ```
 $ sudo cat translators_orig.txt > /opt/deadbeef/share/doc/deadbeef/translators.txt
 ```
 
-Заменяем содержимое файла "О программе" на оригинальное:
+2.2.3.Замените содержимое файла "О программе" на оригинальное:
 ```
 $ sudo cat about_orig.txt > /opt/deadbeef/share/doc/deadbeef/about.txt
 ```
 
-Заменяем содержимое файла истории изменений DeaDBeeF на оригинальное:
+2.2.4.Замените содержимое файла истории изменений DeaDBeeF на оригинальное:
 ```
 $ sudo cat ChangeLog_DeaDBeeF_orig > /opt/deadbeef/share/doc/deadbeef/ChangeLog
 ```
 
-Удаляем русский файл помощи:
+2.2.5.Удалите русский файл помощи:
 ```
 $ sudo rm -f /opt/deadbeef/share/doc/deadbeef/help.ru.txt
 ```
