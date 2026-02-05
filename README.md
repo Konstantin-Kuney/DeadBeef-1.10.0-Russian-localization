@@ -45,7 +45,9 @@ DeadBeef 1.10.0 Russian localization
 
 ### 1.Установка/Удаление с помощью скриптов:
 --------------------------------------------
+
 **Внимание! Скрипт написан для стабильного DeaDBeeF-static установленного из deb-пакета с [официального сайта](https://deadbeef.sourceforge.io/download.html). Если вы собрали DeaDBeeF-devel из [исходников](https://github.com/DeaDBeeF-Player/deadbeef), то пути в скрипте необходимо изменить.**
+
 ---
 
 1.1.Перейдите во временную папку:
