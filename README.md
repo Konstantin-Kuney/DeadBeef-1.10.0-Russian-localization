@@ -46,7 +46,7 @@ DeadBeef 1.10.0 Russian localization
 ### 1.Установка/Удаление с помощью скриптов:
 --------------------------------------------
 
-**Внимание! Скрипт для стабильного DeaDBeeF-static установленного из deb-пакета с [официального сайта](https://deadbeef.sourceforge.io/download.html). Если вы собрали DeaDBeeF-devel из [исходников](https://github.com/DeaDBeeF-Player/deadbeef), то пути в скрипте необходимо изменить.**
+**Внимание! Скрипт для стабильного DeaDBeeF-static установленного из deb-пакета с [официального сайта](https://sourceforge.net/projects/deadbeef/files/travis/linux/1.10.0/). Если вы собрали DeaDBeeF-devel из [исходников](https://github.com/DeaDBeeF-Player/deadbeef), то пути в скрипте необходимо изменить.**
 
 ---
 
@@ -149,7 +149,7 @@ $ sudo rm -f /opt/deadbeef/share/doc/deadbeef/help.ru.txt
 
 [Официальный сайт проигрывателя DeadBeef](https://deadbeef.sourceforge.io/)
 
-[GitHub страница проекта](https://github.com/DeaDBeeF-Player/deadbeef)
+[GitHub репозиторий проекта](https://github.com/DeaDBeeF-Player/deadbeef)
 
 [Старые версии DeadBeef](https://sourceforge.net/projects/deadbeef/files/)
 
